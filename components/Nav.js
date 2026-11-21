@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Moon, Sun, Menu, X } from "lucide-react";
 
-const links = [["About", "/about"], ["Projects", "/projects"], ["Experience", "/experience"], ["Skills", "/skills"], ["Achievements", "/achievements"], ["Contact", "/contact"]];
+const links = [["About", "/about"], ["Projects", "/projects"],  ["Skills", "/skills"], ["Contact", "/contact"]];
 
 export default function Nav() {
   const path = usePathname();
